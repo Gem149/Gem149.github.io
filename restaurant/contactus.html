@@ -2,11 +2,11 @@
 
 <html>
 <head>
-   <title>Gaston's Tavern & Restaurant"</title>
+   <title>Contact Us</title>
    </head>
 
 <body>
-  <<a href="file:///Users/acetip/Desktop/GMrepos/Repo-Tests/restaurant/restaurant.html">Back To Main Menu</a>
+  <<a href="file:///C:/Users/gmart/Desktop/GMrepos/Gem149.github.io/restaurant/restaurant.html">Back To Main Menu</a>
 <header>
 <h1 align=center><b><i><span style="color: Red">Gaston's Tavern & Restaurant</span></b></<i></i></h1>
 </header>
@@ -19,6 +19,44 @@
   <a href="contactus.html">Contact Us</a>
   <hr />
   </div>
+
+<div style="text-align:center">
+<form action="submit.html" method="POST">
+   <label for="Name">Name:</label> <input type="text" id="firstName" name="firstName"> <br />
+   <br>
+      <label for="Email">Email:</label> <input type="text" id="email" name="email"> <br />
+      <br>
+        <label for="Phone">Phone:</label> <input type="text" id="phone" name="phone"> <br />
+         <br>
+
+         <label for="contact">Reason for Inquiry:</label> <select id="contact" name="contact"> <br />
+         <option value="default" selected>Catering</option>
+         <option value="Private Party">Private Party</option>
+         <option value="Feedback">Feedback</option>
+         <option value="Other">Other</option>
+         </select>
+         <br>
+
+ <label for="info">Additional Information:</label>
+ <textarea id="info" name="info"></textarea>
+ <br>
+<br>
+
+<label>Have you been to the restaurant?</label><input type="radio" name="answer" value="no" checked /> No <input type="radio" name="answer" value="yes"/>Yes
+<br>
+
+<br>
+<label>Best days to contact you:</label>
+    <input type="checkbox" name="myChoices" value="M" uncheck/>M
+    <input type="checkbox" name="myChoices" value="T" uncheck/>T
+    <input type="checkbox" name="myChoices" value="W" uncheck/>W
+    <input type="checkbox" name="myChoices" value="Th" uncheck/>Th
+    <input type="checkbox" name="myChoices" value="F" uncheck/>F
+    <br>
+
+    <br>
+<input type="submit" name="Send Request" value="Send Request">
+</div>
 
   <footer>
     <hr />
