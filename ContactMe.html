@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GM Contact Me</title>
+    </head>
+
+
+  <body>
+      <main>
+         <<a href="portfolio.html">Back To Portfolio</a>
+     <header>
+       <h1 align=center>Contact Form</h1>
+       </header> <!-- heading one -->
+<hr />
+
+<div style="text-align:center">
+    <article id="Contact">
+      <h2><em>Please Enter Your Contact Information</em></h2>
+</div>
+<br>
+
+<div style="text-align:center">
+<form action="submit.html" method="POST">
+   <label for="FName">First Name:</label> <input type="text" id="firstName" name="firstName"> <br />
+   <br>
+   <label for="LName">Last Name:</label> <input type="text" id="lastName" name="lastName"> <br />
+   <br>
+      <label for="Email">Email:</label> <input type="text" id="email" name="email"> <br />
+      <br>
+        <label for="Phone">Phone:</label> <input type="text" id="phone" name="phone"> <br />
+         <br>
+
+         <label for="contact">Reason for Inquiry:</label> <select id="contact" name="contact"> <br />
+         <option value="default" selected>Select</option>
+         <option value="Web Design">Web Design Services</option>
+         <option value="Java Coding">Java Services</option>
+         <option value="Feedback">Testimonial of Services</option>
+         <option value="Other">Other</option>
+         </select>
+         <br>
+
+<br>
+ <label for="info">Additional Information:</label>
+ <br>
+ <textarea id="info" name="info"></textarea>
+ <br>
+<br>
+
+<label>Have you used our services before?</label><input type="radio" name="answer" value="yes"/>Yes <input type="radio" name="answer" value="no"/> No
+<br>
+
+<br>
+<label>Best days to contact you:</label>
+    <input type="checkbox" name="myChoices" value="M" uncheck/>M
+    <input type="checkbox" name="myChoices" value="T" uncheck/>T
+    <input type="checkbox" name="myChoices" value="W" uncheck/>W
+    <input type="checkbox" name="myChoices" value="Th" uncheck/>Th
+    <input type="checkbox" name="myChoices" value="F" uncheck/>F
+    <br>
+
+    <br>
+<input type="submit" name="Send Request" value="Send Request">
+</div>
+
+<footer>
+     <hr />
+      </footer>
+</main>
+  </body>
+</html>
