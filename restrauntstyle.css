@@ -17,14 +17,18 @@ a:link {
 }
 
 a:visited {
-  color:gold;
+  color:darkslateblue;
 }
 
 a:hover {
   font-weight: bold;
-  color: blue;
+  color: lime;
 }
 
 a:active: {
-  color: magenta;
+  color: deeppink;
+}
+
+body{
+  background-color:mistyrose;
 }
