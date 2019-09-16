@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+    text-align: center;
+    font-style: bold;
+    font-style: italic;
+    font-family: fantasy;
+
+}
+
+footer {
+  color: red;
+  text-align: center;
+}
+
+a:link {
+  color:red;
+}
+
+a:visited {
+  color:gold;
+}
+
+a:hover {
+  font-weight: bold;
+  color: blue;
+}
+
+a:active: {
+  color: magenta;
+}
