@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <title>Contact Us</title>
+   <link rel="stylesheet" href="restrauntstyle.css">
+   </head>
+
+<body>
+  <<a href="restaurantcss.html">Back To Main Menu</a>
+<header>
+<h1>Gaston's Tavern & Restaurant</h1>
+</header>
+
+<nav>
+  <hr />
+  <div style="text-align:center">
+  <a class="default.asp" href="home.html">Home</a>
+  <a class="default.asp" href="menu.html">Menu</a>
+  <a class="default.asp" href="contactus.html">Contact Us</a>
+  <hr />
+  </div>
+
+<div style="text-align:center">
+<form action="submit.html" method="POST">
+   <label for="Name"><b>Name:</label> <input type="text" id="firstName" name="firstName" required/></b><br />
+   <br>
+      <label for="Email"><b>Email:</label> <input type="text" id="email" name="email" required/></b> <br />
+      <br>
+        <label for="Phone"><b>Phone:</label> <input type="text" id="phone" name="phone" required/></b> <br />
+         <br>
+
+         <label for="contact">Reason for Inquiry:</label> <select id="contact" name="contact"> <br />
+         <option value="default" selected>Catering</option>
+         <option value="Private Party">Private Party</option>
+         <option value="Feedback">Feedback</option>
+         <option value="Other">Other</option>
+         </select>
+         <br>
+
+
+ <label for="info">Additional Information:</label>
+ <textarea id="info" name="info"></textarea>
+ <br>
+<br>
+
+<label>Have you been to the restaurant?</b></label><input type="radio" name="answer" value="no" checked /> No <input type="radio" name="answer" value="yes"/>Yes
+<br>
+
+<br>
+<label>Best days to contact you:</label>
+    <input type="checkbox" name="myChoices" value="M" uncheck/>M
+    <input type="checkbox" name="myChoices" value="T" uncheck/>T
+    <input type="checkbox" name="myChoices" value="W" uncheck/>W
+    <input type="checkbox" name="myChoices" value="Th" uncheck/>Th
+    <input type="checkbox" name="myChoices" value="F" uncheck/>F
+    <br>
+
+    <br>
+<input type="submit" name="Send Request" value="Send Request">
+</div>
+
+  <footer>
+    <hr />
+    <p>Main Street, Orlando, FL, 32830</p>
+    <p>313-555-6732</p>
+  </footer>
+
+  </body>
+  </html>
