@@ -1,12 +1,44 @@
 body {
-  background-image: url(infit2.jpg);
-  /*https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1920/1080/75/dam/wdpro-assets/gallery/attractions/magic-kingdom/cinderella-castle/cinderella-castle-gallery14.jpg?1551810691681*/
+background-color:silver;
+/*  background-image: url(infit2.jpg);
+  https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1920/1080/75/dam/wdpro-assets/gallery/attractions/magic-kingdom/cinderella-castle/cinderella-castle-gallery14.jpg?1551810691681
  background-size: 1300px 2100px;
   display: inline-block;
-
+*/
 
   font-size: 20px;
-  font-family: 'Times New Roman';
+  font-family:fantasy;
   font-style: italic;
-  color: hotpink;
+  color: gold;
+}
+
+h1{
+  font-family:fantasy;
+  font-style:italic;
+  color:Gold;
+  text-align:center;
+}
+
+h2{
+  font-family:fantasy;
+  font-style:italic;
+  color:Gold;
+  text-align:center;
+}
+
+a:link {
+  color:red;
+}
+
+a:visited {
+  color:darkslateblue;
+}
+
+a:hover {
+  font-weight: bold;
+  color: lime;
+}
+
+a:active: {
+  color: deeppink;
 }

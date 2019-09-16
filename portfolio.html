@@ -1,6 +1,6 @@
 <!--
 Name : GM
-Date Created: 9/10/19
+Date Created: 9/16/19
 Most Recent Revision:
 -->
 
@@ -9,15 +9,32 @@ Most Recent Revision:
 <html lang="en">
   <head>
     <title>GM Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
-
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="portfolio.css">
+        <style>
+      img {
+        opacity:0.5;
+        filter: alpha(opacity=50);
+      }
+      img:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+      }
+        </style>
     </head>
 
 
   <body>
       <main>
      <header>
-       <h1 align=center><i><span style="color: violet">Gabriella's Zone</span></i></h1>
+       <h1>Gabriella's Zone</h1>
        </header> <!-- heading one -->
 
        <nav>
@@ -33,46 +50,84 @@ Most Recent Revision:
     <section>
       <div style="text-align:center">
       <article id="about">
-        <h2><em><span style="color: violet">About Me</span></em></h2>
-        <hr style="width: 50%; border: 2px solid violet;" />
+        <h2>About Me</h2>
+        <hr style="width: 50%; border: 2px solid gold;" />
         <img src="aboutme.png" alt="Avid Disney Fan" />
     <p>I like to read, write, and travel. In my free time you will find me doing one of the following things... daydreaming, reading, playing video games, or just enjoying the sun </p>
-
-
-
-    <article id="Hobbies">
-      <h2><em><span style="color: violet">Hobbies</span></em></h2>
-        <img src="hobbies.jpeg" alt="Image of Hobies" width="250" />
-
-
-       <p align=center>Authors</p>
-         <li>Tate James</li>
-           <li>Cassandra Clare</li>
-           <li>LJ Swallow</li>
     <br>
-       <p align=center>Video Games</p>
-           <li>Kingdom Hearts 1, 2, 3</li>
-           <li>God of War</li>
-           <li>Smite</li>
-      <br>
-       <p align=center>Favorite Cuisine</p>
-           <li>Italian</li>
-           <li>Chinese</li>
-           <li>Mexican</li>
 
-       <br>
-       <p align=center>Outdoor Activities</p>
-           <li>Walking</li>
-           <li>Dancing</li>
-           <li>Reading</li>
+<div class="container">
+  <h2 align=center><span style="color:gold; font-family:fantasy;">Hobbies
+    </h2><br>
+  <p align=center><span style="color:gold; font-family:fantasy;">These are some of my favorite hobbies.</span></p>
 
+  <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <div class="container2">
+        <a href="https://www.rakuten.com/shop/ce-compass/product/PS4_CTRL_WT_WHT_86/">
+  <img src="ps4.jpg" style="width:100%">
+  </a>
+  </div>
+          <div class="caption">
+            <p align=center><span style="color:gold; font-family:fantasy;">Video Games</span></p>
+            <p align=center></p>
+                <li>Kingdom Hearts 1, 2, 3</li>
+                <li>God of War</li>
+                <li>Smite</li>
+          </div>
+      <a>  </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <img src="books.jpg" style="width:100%">
+          <div class="caption">
+            <p align=center><span style="color:gold; font-family:fantasy;">Reading</span></p>
+            <p align=center>Authors</p>
+              <li>Tate James</li>
+                <li>Cassandra Clare</li>
+                <li>LJ Swallow</li>
+         <br>
+          </div>
+      <a>  </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
 
-</article>
-</section>
+          <img src="act.jpeg" style="width: 100%">
+          <div class="caption">
+            <p align=center><span style="color:gold; font-family:fantasy;">Activities</span></p>
+            <p align=center></p>
+                <li>Walking</li>
+                <li>Dancing</li>
+                <li>Reading</li>
+
+          </div>
+      <a>  </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <img src="food.jpg" style="width:100%">
+          <div class="caption">
+            <p align=center><span style="color:gold; font-family:fantasy;">Foods</span></p>
+            <p align=center></p>
+                <li>Italian</li>
+                <li>Chinese</li>
+                <li>Mexican</li>
+          </div>
+      <a>  </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <footer>
      <hr />
-       <p align=center><span style="color: HOTPINK"> All photos were taken by GM while away. All Right's Reserved</span></p>
+       <p align=center><span style="color: gold"> All photos were taken by GM while away. gAll Right's Reserved. Other images are borrowed from google.</span></p>
       </footer>
 </main>
   </body>
