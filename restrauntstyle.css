@@ -27,6 +27,7 @@ a:hover {
 
 a:active: {
   color: deeppink;
+  text-decoration: no-underline;
 }
 
 body{
