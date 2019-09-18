@@ -1,0 +1,55 @@
+h1 {
+  color: red;
+    text-align: center;
+    font-style: bold;
+    font-style: italic;
+    font-family: fantasy;
+
+}
+
+footer {
+  color: red;
+  text-align: center;
+}
+
+a:link {
+  color:white;
+}
+
+a:visited {
+  color:darkslateblue;
+}
+
+a:hover {
+  font-weight: bold;
+  color: lime;
+  background-color: gold
+}
+
+a:active: {
+  color: deeppink;
+  text-decoration: no-underline;
+}
+
+body{
+  background-color:mistyrose;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hotpink;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 1px ;
+ text-decoration: none;
+}
