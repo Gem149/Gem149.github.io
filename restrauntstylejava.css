@@ -59,3 +59,11 @@ div.sticky{
   top:0;
   padding:50px;
 }
+
+.btn{
+  background-color: silver;
+  border:none;
+  color:black;
+  padding: 12px 16px;
+  cursor: pointer;
+}
