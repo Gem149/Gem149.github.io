@@ -11,6 +11,8 @@
        <link rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link rel="stylesheet" href="restrauntstylejava.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+       <script src="contactusjava.js"></script>
        <style>
      img {
        opacity:0.5;
@@ -47,44 +49,91 @@
 
 <br>
 <div style="text-align:center">
-<form action="submit.html" method="POST">
-   <label for="Name"><b>First Name:</label> <input type="text" id="firstName" name="firstName" required/></b><br />
+  <!--
+<form action="submit.html" method="POST"> -->
+  <!-- <label for="name"><b>First Name:</label> -->
+  <label>
+    First Name
+     <input type="text" class="First name"/>
+   </label>
    <br>
-   <label for="Name"><b>Last Name:</label> <input type="text" id="lastName" name="lastName" required/></b><br />
+<!--
+     id="firstName" name="firstName" required/></b><br />
    <br>
-      <label for="Email"><b>Email:</label> <input type="text" id="email" name="email" required/></b> <br />
-      <br>
-        <label for="Phone"><b>Phone:</label> <input type="text" id="phone" name="phone" required/></b> <br />
-         <br>
+ -->
 
-         <label for="contact">Reason for Inquiry:</label> <select id="contact" name="contact"> <br />
+<br>
+  <!-- <label for="name"><b>Last Name:</label> -->
+<label>
+  Last Name
+  <input type="text" class="Last Name"/>
+<!--  id="lastName" name="lastName" required/></b><br />
+   <br> -->
+   <br>
+ </label><br>
+
+<br>
+  <!--    <label for="email"><b>Email:</label> -->
+<label>
+  Email
+  <input type="email" class="Email"/>
+  <br>
+</label><br>
+  <!-- id="email" name="email" required/></b> <br />
+      <br> -->
+
+<br>
+    <!--    <label for="phone"><b>Phone:</label> -->
+    <label>
+      Phone
+    <input type="text" class="Phone"/>
+    <br>
+  </label><br>
+    <!-- id="phone" name="phone" required/></b> <br />
+         <br> -->
+
+<br>
+       <label for="contact">Reason for Inquiry:
+          <select id="contact" name="contact"> <br />
          <option value="default" selected>Catering</option>
          <option value="Private Party">Private Party</option>
          <option value="Feedback">Feedback</option>
          <option value="Other">Other</option>
          </select>
          <br>
+       </label><br>
 
-
- <label for="info">Additional Information:</label>
+<br>
+ <label for="info">Additional Information:
  <textarea id="info" name="info"></textarea>
  <br>
-<br>
-
-<label>Have you been to the restaurant?</b></label><input type="radio" name="answer" value="no" checked /> No <input type="radio" name="answer" value="yes"/>Yes
-<br>
+</label><br>
 
 <br>
-<label>Best days to contact you:</label>
+<label>Have you been to the restaurant?</b><input type="radio" name="answer" value="no" checked /> No <input type="radio" name="answer" value="yes"/>Yes
+<br>
+</label><br>
+
+<br>
+<label>Best days to contact you:
     <input type="checkbox" name="myChoices" value="M" uncheck/>M
     <input type="checkbox" name="myChoices" value="T" uncheck/>T
     <input type="checkbox" name="myChoices" value="W" uncheck/>W
     <input type="checkbox" name="myChoices" value="Th" uncheck/>Th
     <input type="checkbox" name="myChoices" value="F" uncheck/>F
     <br>
+</label>
 
-    <br>
-<input type="submit" name="Send Request" value="Send Request">
+
+    <div class="status">
+    </div>
+
+    <!-- before it was input type -->
+<button type="Submit" class="Submit">
+  Submit
+<!-- name="Send Request" value="Send Request"> -->
+</button>
+</form>
 </div>
 
 <div class="container6">

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button onclick="myFunction()">See the max values</button>
+
+<p id="test"></p>
+
+<script>
+function myFunction() {
+  var a = Math.max(50, 10);
+  var b = Math.max(100, 150, 30, 20, 38);
+  var c = Math.max(-95, 100);
+  var d = Math.max(-25, -120);
+  var e = Math.max(3.5, 2.5);
+
+  var x = a + "<br>" + b + "<br>" + c + "<br>" + d + "<br>" + e;
+  document.getElementById("test").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
