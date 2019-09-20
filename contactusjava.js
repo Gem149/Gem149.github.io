@@ -33,7 +33,7 @@ $(document).ready(function() {
       statusElm.append('<div>Phone is valid</div>')}
       else{
         event.preventDefault()
-        statusElm.append('<div>Phone is invalid. Please try again.</div>')
+        statusElm.append('<div>Phone is invalid. Please try again. Hint-add dashes.</div>')
       }
   })
 })
