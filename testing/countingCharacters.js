@@ -31,8 +31,8 @@ function countingCharacters3(str, search){
         }
     }
 
-  /* console.log("String to search in: " + str);
+   console.log("String to search in: " + str);
     console.log("Character to find: " + search);
-    console.log("Number of times the character appears: " + count); */
-      return count;
+    console.log("Number of times the character appears: " + count);
+
 }

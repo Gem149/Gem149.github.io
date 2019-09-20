@@ -4,31 +4,34 @@ $(document).ready(function() {
   $('.Submit').click(function (event){
     console.log('Clicked button')
 
-  var FirstName = $('.First Name').val()
-    var LastName = $('.Last Name').val()
+  var Fname = $('.Fname').val()
+    var Lname = $('.Lname').val()
     var Email = $('.Email').val()
     var Phone = $('.Phone').val()
     var statusElm = $('.status')
     statusElm.empty()
 
-    if(FirstName.length <= 10) {
-      statusElm.append('<div>Name is valid</div>')}
+    if(Fname.length >= 5) {
+      statusElm.append('<div>First Name is valid</div>')}
       else{
         event.preventDefault()
-        statusElm.append('<div>Name is invalid. Please try again.</div>')
+        statusElm.append('<div>First Name is invalid. Please try again.</div>')
       }
-      if(LastName.length <= 10) {
-        statusElm.append('<div>Name is valid</div>')} else{
+      if(Lname.length >= 5) {
+        statusElm.append('<div>Last Name is valid</div>')}
+         else{
           event.preventDefault()
-          statusElm.append('<div>Name is invalid. Please try again.</div>')
+          statusElm.append('<div>Last Name is invalid. Please try again.</div>')
       }
-      if(Email.length > 5 && Email.includes('@') && email.includes('.')) {
-        statusElm.append('<div>Email is valid</div>')} else{
+      if(Email.length >= 5 && Email.includes('@') && Email.includes('.')) {
+        statusElm.append('<div>Email is valid</div>')}
+        else{
           event.preventDefault()
           statusElm.append('<div>Email is invalid. Please try again.</div>')
     }
-    if(Phone.length <= 10) {
-      statusElm.append('<div>phone is valid</div>')} else{
+    if(Phone.length >= 3 && Phone.includes('-')) {
+      statusElm.append('<div>Phone is valid</div>')}
+      else{
         event.preventDefault()
         statusElm.append('<div>Phone is invalid. Please try again.</div>')
       }

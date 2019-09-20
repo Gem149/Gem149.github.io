@@ -24,6 +24,8 @@ for (var i = 0; i < 100; i++) {
 }
 */
 
-function rollDice(20) {
+function rollDice(numSides) {
   return Math.floor(Math.random() * numSides) + 1;
 }
+
+console.log("hello world");
