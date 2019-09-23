@@ -3,14 +3,8 @@
 <html>
 <head>
    <title>Menu</title>
-   <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-       <link rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <link rel="stylesheet" href="./restaurant/restrauntstylejava.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="restrauntstyle.css">
    <style>
 
 body{
@@ -23,7 +17,7 @@ body{
   font-family:fantasy;
 }
 .hero-image{
-  background-image: url("./restaurant/gtavernout.png");
+  background-image: url("gtavernout.png");
   background-color: white;
   height: 1250px;
   background-position: center;
@@ -35,37 +29,41 @@ body{
  </head>
 
 <body>
-  <<a href="./restaurant/restaurantjava.html">Back To Main Menu</a>
+  <<a href="restaurantcss.html">Back To Main Menu</a>
 <header>
 <h1>Gaston's Tavern & Restaurant</h1>
 </header>
 
 <div class="hero-image">
 
-  <div class="container5">
-  <ul class="nav nav-pills nav-justified">
-  </li>
-    <li><a href="./restaurant/homejava.html"><button class="btn"><i class="fa fa-home"></i></button></a></li>
-    <li><a href="./restaurant/menujava.html"><button class="btn"><i class="fa fa-glass"></i></button></a></li>
-      <li><a href="./restaurant/contactusjava.html"><button class="btn"><i class="fa fa-book"></i></button></a></li>
-  </ul>
+<!--<nav>
+  <hr />
+  <div style="text-align:center">
+  <a class="default.asp" href="homecss.html">Home</a>
+  <a class="default.asp" href="menucss.html">Menu</a>
+  <a class="default.asp" href="contactuscss.html">Contact Us</a>
+  <hr />
   </div>
-
-<div class="sticky"><center>
-<h2><span style="font-family: fantasy; color:red; font-style:italic; font-size:48px;">We are opening a new location!</span></h2></div>
-<div>
+-->
+<ul>
+  <center>
+  <li><a class="active" href="homecss.html">Home</a></li>
+  <li><a href="menucss.html">Menu</a></li>
+  <li><a href="contactuscss.html">Contact</a></li>
+</a></li>
+</ul>
 
 <table width="100%">
   <tr>
-    <th style="color:white;text-align:left;font-style:bold;font-style:italic;text-decoration:underline;font-size:30px;font-family:Fantasy;">Main Dishes
+    <th style="color:black;text-align:left;font-style:bold;font-style:italic;font-size:30px;font-family:Fantasy;">Main Dishes
     </th>
-    <th style="color:white;text-align:center;font-style:bold;font-style:italic;text-decoration:underline;font-size:30px;font-family:fantasy;">Beverages
+    <th style="color:black;text-align:center;font-style:bold;font-style:italic;font-size:30px;font-family:fantasy;">Beverages
     </th>
-    <th style="color:white;text-align:right;font-style:bold;font-style:italic;text-decoration:underline;font-size:30px;font-family:fantasy;">Dessert
+    <th style="color:black;text-align:right;font-style:bold;font-style:italic;font-size:30px;font-family:fantasy;">Dessert
     </th>
   </tr>
 <tr>
-<td style="color:gold;font-size:20px;font-family:fantasy;"><br> Cogsworth's Perfectly Timed Soup <br>
+<td style="color:gold;font-size:20px;font-family:fantasy;"> Cogsworth's Perfectly Timed Soup <br>
 Home Made Noodle Soup<br>
 Choice of Chicken Noodle, Tomato Bisk, French Onion<br>
 $10.95<br>
@@ -74,14 +72,25 @@ $10.95<br>
 
 
 
-<td style="color:deeppink;text-align:center;font-size:20px;font-family:fantasy;"><br> Mrs.Pots Heaven Sake Their's A Spot! <br>
+<td style="color:deeppink;text-align:center;font-size:20px;font-family:fantasy;"> Mrs.Pots Heaven Sake Their's A Spot! <br>
 Iced Tea<br>
 Choice of Sweetened Tea or Unsweetened Tea<br>
 $5.95<br>
 </td>
 
 
-<td style="color:orange;text-align:right;font-size:20px;font-family:fantasy;"><br>The Belle of the Ball <br>
+<!--
+<td style="color:royalblue;text-align:right;"> Prince Charming's Glass Slipper <br>
+American Style Burger<br>
+Pretzel Buns, Ketchup, Lettuce, Tomato, Onions<br>
+Choice of Medium Rare or Rare<br>
+Choice of Onion Rings, Baked Potato, Cury Fries<br>
+$11.95<br></td>
+</tr>
+</table>
+-->
+
+<td style="color:orange;text-align:right;font-size:20px;font-family:fantasy;">The Belle of the Ball <br>
 Sundae<br>
 Placed in a 25th Anniversary Beauty & The Beast Mugs<br>
 Choice of Vanialla, Chocolate, Strawberry Ice Cream<br>
@@ -99,6 +108,11 @@ $14.95<br>
     $11.95 <br>
   </td>
 
+  <!--  <div style="text-align:center">
+      borrowed image of Gaston's Tavern from Disney/Google
+    <img src="gtavern.png" width="400" height"150"> </a>
+    <div>
+    -->
 
 
   <td style="color:aqua;text-align:center;font-size:20px;font-family:fantasy;">Ariel's Oceanside Brew <br>
@@ -120,9 +134,17 @@ $14.95<br>
 
 </tr>
 
+  <!--<tr>
+      <td style="color:brown"> The Belle of the Ball <br>
+  Sundae<br>
+  Placed in a 25th Anniversary Beauty & The Beast Mug<br>
+  Choice of Vanialla, Chocolate, Strawberry Ice Cream<br>
+  Choice of Topping - Cherry, Hot Fudge, Whip Cream<br>
+  $14.95<br>
+  </td>
+-->
 
-
-    <td style="color:royalblue;font-size:20px;font-family:fantasy;"><br> Prince Charming's Glass Slipper <br>
+    <td style="color:royalblue;font-size:20px;font-family:fantasy;"> Prince Charming's Glass Slipper <br>
 American Style Burger<br>
 Pretzel Buns, Ketchup, Lettuce, Tomato, Onions<br>
 Choice of Medium Rare or Rare<br>
