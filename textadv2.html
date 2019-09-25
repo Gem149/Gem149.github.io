@@ -8,27 +8,8 @@
    background-image: url("https://thumbs.gfycat.com/LimpingCommonDrever-size_restricted.gif");
    background-size: cover;
    }
-  /* function choices(){
-     var buttonA = document.getElementById("buttonA");
-        var buttonB = document.getElementById("buttonB");
-           var buttonC = document.getElementById("buttonC");
-              var buttonD = document.getElementById("buttonD");
-   if(buttonA.id === "buttonA"){
-alert("You chose to kick down the door... I hope their is nothing waiting for you on the other side...")}
-if(buttonB.id === "buttonB"){
- alert("You chose to ram the door... I hope their is nothing ready to pounce on you...")
-}
-if(buttonC.id === "buttonC"){
- alert("The dead may give you the answers you seek...but at what cost?")
-}
-if(buttonD.id === "buttonD"){
- alert("You fled for safety... some might say that is a wise choice.")
-}
-else{
- alert("Make a choice.")
-} */
-}
-   </style>
+ </style>
+   <script src="game.js"></script>
  <head>
 <body>
   <center>
@@ -43,13 +24,13 @@ else{
 
 <div>
   <a href="textadv3.html">
-<button type="button" name="button" id="buttonA"><span style="font-family:‘Mansalva’, cursive; font-size: 20px; color:red;">Kick the door down</span></button><br>
+<button type="button" onclick="kickdoor()"><span style="font-family:‘Mansalva’, cursive; font-size: 20px; color:red;">Kick the door down</span></button><br>
 <a href="textadv3.html">
-<button type="button" name="button" id="buttonB"><span style="font-family:‘Mansalva’, cursive; font-size: 20px; color:red;">Ram it</span></button><br>
+<button type="button" onclick="ramit()"><span style="font-family:‘Mansalva’, cursive; font-size: 20px; color:red;">Ram it</span></button><br>
 <a href="textadv3.html">
-<button type="button" name="button" id="buttonC"><span style="font-family:‘Mansalva’, cursive; font-size: 20px; color:red;">Plead with the dead to let you in</span></button><br>
+<button type="button" onclick="plead()"><span style="font-family:‘Mansalva’, cursive; font-size: 20px; color:red;">Plead with the dead to let you in</span></button><br>
 <a href="textadv.html">
-<button type="button" name="button" id="buttonD"><span style="font-family:‘Mansalva’, cursive; font-size: 20px; color:blue;">Turn Back...</button><br>
+<button type="button" onclick="turnback()"><span style="font-family:‘Mansalva’, cursive; font-size: 20px; color:blue;">Turn Back...</button><br>
   </div>
 
 
